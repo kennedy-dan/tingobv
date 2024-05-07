@@ -44,7 +44,7 @@ const HomePage1 = ({ onAnimationComplete }) => {
 const HomePage2 = ({ onAnimationComplete }) => {
   return (
     <motion.div
-      className="bg-[url('/images/heroimg2.png')] bg-cover bg-center h-screen py-16"
+      className=" text-white bg-[url('/images/heroimg2.png')] bg-cover bg-center h-screen py-16"
       initial={false}
       animate={{ opacity: 1 }}
       //   exit={{ opacity: 0 }}
