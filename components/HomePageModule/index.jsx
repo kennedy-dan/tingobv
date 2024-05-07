@@ -194,7 +194,7 @@ const HomePage = () => {
       setHoveredIndex(null);
     };
     return (
-      <div className="px-3">
+      <div className="pr-3">
         <div
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}
@@ -255,7 +255,7 @@ const HomePage = () => {
       btntxt: "Read more",
     },
   ];
-  
+
 
   return (
     <>
@@ -299,7 +299,7 @@ const HomePage = () => {
 
         <section className="pt-36 px-20">
           <div>
-            <p className="font-medium text-2xl">
+            <p className="font-medium text-2xl mb-4">
               Explore Our Signature Selection
             </p>
             <div>
