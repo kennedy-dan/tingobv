@@ -255,6 +255,7 @@ const HomePage = () => {
       btntxt: "Read more",
     },
   ];
+  
 
   return (
     <>
@@ -315,7 +316,7 @@ const HomePage = () => {
         <section className="px-20 pt-36">
           <div className="grid grid-cols-3 gap-5">
             {blog.map((blogdetails, index) => (
-              <div key={indeximg} className="bg-[#F6F6F6] px-4 py-6 rounded-3xl">
+              <div key={index} className="bg-[#F6F6F6] px-4 py-6 rounded-3xl">
                 <img src={blogdetails.img} alt="" />
                 <p className="font-bold text-2xl pt-4 uppercase">
                   {blogdetails.title}
