@@ -314,6 +314,7 @@ const HomePage = () => {
           </div>
         </section>
         <section className="px-20 pt-36">
+            <p className='text-2xl font-medium mb-4'>Latest News and Blogs</p>
           <div className="grid grid-cols-3 gap-5">
             {blog.map((blogdetails, index) => (
               <div key={index} className="bg-[#F6F6F6] px-4 py-6 rounded-3xl">
