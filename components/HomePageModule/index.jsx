@@ -33,7 +33,7 @@ const HomePage1 = ({ onAnimationComplete }) => {
             Crafted for Those who Crave Excellence in Every Sip
           </p>
         </div>
-        <button className="text-white ml-20 py-3 px-6 bg-[#EF5625]">
+        <button className="text-white rounded-md  ml-20 py-3 px-6 bg-[#EF5625]">
           Learn More
         </button>
       </div>
@@ -69,7 +69,7 @@ const HomePage2 = ({ onAnimationComplete }) => {
               Crafted for Those who Crave Excellence in Every Sip
             </p>
           </div>
-          <button className="text-white py-3 px-6 bg-[#EF5625]">
+          <button className="text-white rounded-md py-3 px-6 bg-[#EF5625]">
             Learn More
           </button>
         </div>
