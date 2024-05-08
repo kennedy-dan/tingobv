@@ -256,7 +256,6 @@ const HomePage = () => {
     },
   ];
 
-
   return (
     <>
       <section className="h-full">
@@ -269,7 +268,10 @@ const HomePage = () => {
           )}
         </AnimatePresence>
 
-        <section id='about' className="grid grid-cols-2 items-center px-20 pt-36">
+        <section
+          id="about"
+          className="grid grid-cols-2 items-center px-20 pt-36"
+        >
           <div className="">
             <img src="/images/abouttingoimg.png" className="" />
           </div>
@@ -293,7 +295,7 @@ const HomePage = () => {
           </div>
         </section>
 
-        <section  className="pt-36">
+        <section className="pt-36">
           <img className="" src="/images/cola.png" />
         </section>
 
@@ -314,11 +316,18 @@ const HomePage = () => {
           </div>
         </section>
 
-
         <section className="mt-36">
           <img src="/images/energydr.png" alt="" />
         </section>
-        <section className='mt-36'>
+
+        <section>
+          <img src="/images/tingocola.png" alt="" />
+        </section>
+
+        <section>
+          <img src="/images/tingoelectric.png" alt="" />
+        </section>
+        <section className="mt-36">
           <AnimatePresence>
             {showCoke1 ? (
               <Coke1 onAnimationCompleted={() => setShowCoke(false)} />
