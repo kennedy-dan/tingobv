@@ -295,11 +295,11 @@ const HomePage = () => {
           </div>
         </section>
 
-        <section className="pt-36">
+        {/* <section className="pt-36">
           <img className="" src="/images/cola.png" />
-        </section>
+        </section> */}
 
-        <section id="products" className="pt-36 px-20">
+        {/* <section id="products" className="pt-36 px-20">
           <div>
             <p className="font-medium text-2xl mb-4">
               Explore Our Signature Selection
@@ -314,7 +314,7 @@ const HomePage = () => {
               />
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="mt-36">
           <img src="/images/energydr.png" alt="" />
