@@ -11,7 +11,7 @@ const NavBar = () => {
         <div className='flex'>
           <a href='#about'>About us</a>
           <a href='#products' className='pl-5'>Products</a>
-          <a href="#blogs" className='pl-5'>Blogs</a>
+          {/* <a href="#blogs" className='pl-5'>Blogs</a> */}
           <a href='##where to buy' className='pl-5'>Where To Buy</a>
           <a href='#contact' className='pl-5'>Contact Us</a>
         </div>

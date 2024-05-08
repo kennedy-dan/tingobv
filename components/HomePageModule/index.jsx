@@ -315,23 +315,6 @@ const HomePage = () => {
         </section>
 
 
-        <section id="blogs" className="px-20 pt-36">
-            <p className='text-2xl font-medium mb-4'>Latest News and Blogs</p>
-          <div className="grid grid-cols-3 gap-5">
-            {blog.map((blogdetails, index) => (
-              <div key={index} className="bg-[#F6F6F6] px-4 py-6 rounded-3xl">
-                <img src={blogdetails.img} alt="" />
-                <p className="font-bold text-2xl pt-4 uppercase">
-                  {blogdetails.title}
-                </p>
-                <p className=" text-sm pt-3">{blogdetails.desc}</p>
-                <button className="text-white py-3 px-6 mt-4 bg-[#EF5625]">
-                  {blogdetails.btntxt}
-                </button>
-              </div>
-            ))}
-          </div>
-        </section>
         <section className="mt-36">
           <img src="/images/energydr.png" alt="" />
         </section>
