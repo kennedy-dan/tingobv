@@ -14,7 +14,7 @@ const HomePage1 = ({ onAnimationComplete }) => {
       transition={{ duration: 1 }}
       onAnimationComplete={onAnimationComplete}
     >
-      <div className="bg-[url('/images/heroimg1.png')] h-screen bg-cover bg-center">
+      <div className="bg-[url('/images/heroimg1.svg')] h-screen bg-cover bg-center">
         <div className="pl-20 flex">
           <motion.p
             className="font-urbanist font-bold text-6xl tracking- leading-tight"
@@ -260,15 +260,15 @@ const HomePage = () => {
     <>
       <section className="h-full">
         {/* <HomePage2 /> */}
-        <HomePage2 onAnimationComplete={() => setShowHomePage1(true)} />
+        {/* <HomePage2 onAnimationComplete={() => setShowHomePage1(true)} /> */}
 
-        {/* <AnimatePresence>
+        <AnimatePresence>
           {showHomePage1 ? (
             <HomePage1 onAnimationComplete={() => setShowHomePage1(false)} />
           ) : (
             <HomePage2 onAnimationComplete={() => setShowHomePage1(true)} />
           )}
-        </AnimatePresence> */}
+        </AnimatePresence>
 
         <section
           id="about"
