@@ -260,13 +260,15 @@ const HomePage = () => {
     <>
       <section className="h-full">
         {/* <HomePage2 /> */}
-        <AnimatePresence>
+        <HomePage2 onAnimationComplete={() => setShowHomePage1(true)} />
+
+        {/* <AnimatePresence>
           {showHomePage1 ? (
             <HomePage1 onAnimationComplete={() => setShowHomePage1(false)} />
           ) : (
             <HomePage2 onAnimationComplete={() => setShowHomePage1(true)} />
           )}
-        </AnimatePresence>
+        </AnimatePresence> */}
 
         <section
           id="about"
