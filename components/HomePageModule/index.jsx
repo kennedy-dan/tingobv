@@ -322,7 +322,7 @@ const HomePage = () => {
           <img src="/images/energydr.png" alt="" />
         </section>
 
-        <section>
+        <section id='products'>
           <img src="/images/tingocola.png" alt="" />
         </section>
 
