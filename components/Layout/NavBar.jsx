@@ -9,11 +9,11 @@ const NavBar = () => {
           <img src='/images/navlogo.png' alt='logo' />
         </div>
         <div className='flex'>
-          <div>About us</div>
-          <div className='pl-5'>Products</div>
-          <div className='pl-5'>Blogs</div>
-          <div className='pl-5'>Where To Buy</div>
-          <div className='pl-5'>Contact Us</div>
+          <a href='#about'>About us</a>
+          <a href='#products' className='pl-5'>Products</a>
+          <a href="#blogs" className='pl-5'>Blogs</a>
+          <a href='##where to buy' className='pl-5'>Where To Buy</a>
+          <a href='#contact' className='pl-5'>Contact Us</a>
         </div>
 
         <div>

@@ -269,7 +269,7 @@ const HomePage = () => {
           )}
         </AnimatePresence>
 
-        <section className="grid grid-cols-2 items-center px-20 pt-36">
+        <section id='about' className="grid grid-cols-2 items-center px-20 pt-36">
           <div className="">
             <img src="/images/abouttingoimg.png" className="" />
           </div>
@@ -293,11 +293,11 @@ const HomePage = () => {
           </div>
         </section>
 
-        <section className="pt-36">
+        <section  className="pt-36">
           <img className="" src="/images/cola.png" />
         </section>
 
-        <section className="pt-36 px-20">
+        <section id="products" className="pt-36 px-20">
           <div>
             <p className="font-medium text-2xl mb-4">
               Explore Our Signature Selection
@@ -313,7 +313,9 @@ const HomePage = () => {
             </div>
           </div>
         </section>
-        <section className="px-20 pt-36">
+
+
+        <section id="blogs" className="px-20 pt-36">
             <p className='text-2xl font-medium mb-4'>Latest News and Blogs</p>
           <div className="grid grid-cols-3 gap-5">
             {blog.map((blogdetails, index) => (
